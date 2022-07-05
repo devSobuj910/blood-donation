@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=DM+Sans:ital,wght@0,400;0,500;1,400;1,700&family=Oswald:wght@300;400;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,800;1,300;1,700&family=Roboto+Slab:wght@200;300;400;600;800&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,500&family=Teko:wght@500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 1270px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+
+/* hero desing start */
+
+#hero {
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    padding: 70px 0px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.hero-content h1 {
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    display: block;
+    margin: auto;
+    font-size: 44px;
+    font-weight: bolder;
+    color: #f6480d;
+    text-align: center;
+}
+
+.hero-content p {
+    width: 50%;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: auto;
+    color: #fefff8;
+}
+
+a.donet-btn {
+    padding: 15px 10px;
+    background: #f6480d;
+    width: 172px;
+    display: block;
+    margin: 30px auto;
+    font-size: 17px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ededed;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* hero desing end */
+
+
+/* donate today start  */
+
+section#donate-today {
+    margin: 80px 0px;
+    overflow: hidden;
+}
+
+.donate-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.donate-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: -1px 0px;
+    margin: auto;
+}
+
+.donate-title h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #303230;
+    margin-bottom: 9px;
+}
+
+.donate-title p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-weight: 500;
+    color: #2c2929;
+}
+
+.donate-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.amount-box {
+    width: 110px;
+    text-align: center;
+    padding: 24px 10px;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4a4747;
+    text-align: center;
+    background-color: #ededed;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.active {
+    border: 3px solid#f6480d;
+    color: #ededed;
+    background-color: #ec754d;
+    border-radius: 10px;
+}
+
+.others-amount {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+}
+
+input[type="text"] {
+    width: 602px;
+    border: navajowhite;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 4px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* donate today end */
+
+
+/* 
+ donate plane start --> */
+
+.donate-box\=wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.donate-box {
+    width: 377px;
+    padding: 20px;
+    background: gainsboro;
+    border-radius: 8px;
+    margin: 50px 0px
+}
+
+.donate-box a {
+    padding: 7px;
+    font-size: 44px;
+    color: black;
+}
+
+.donate-box h4 {
+    width: 100%;
+    display: block;
+    font-weight: pad;
+    font-weight: 800;
+    font-size: 17px;
+    margin: 13px 0px;
+    padding: 10px;
+}
+
+.donate-box p {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px 9px;
+    color: #2e2727;
+}
+
+
+/* donate plan end --> */
+
+
+/* 
+bloge start  */
+
+section#latest-bloge {
+    margin: 53px 0px;
+}
+
+.blog-title {
+    width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.blog-title h1 {
+    font-size: 39px;
+    font-weight: 600;
+    color: #362b2b;
+}
+
+.blog-title hr {
+    width: 95px;
+    margin: auto;
+    height: 5px;
+    background: crimson;
+}
+
+.blog-box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.blog-box {
+    width: 386px;
+    overflow: hidden;
+    background: gainsboro;
+}
+
+.blog-box img {
+    width: 100%;
+}
+
+.blog-box h3 {
+    font-size: 27px;
+    color: #322e2e;
+    margin: 8px 5px;
+}
+
+.blog-box span {
+    font-size: 14px;
+    font-weight: p600;
+    font-weight: 600;
+    padding: 7px;
+    color: #4a4242;
+}
+
+.blog-box p {
+    font-size: 14px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #080606;
+}
+
+.blog-box a {
+    text-decoration: none;
+    padding: 3px 16px;
+    background: no-repeat;
+    margin: 20px 10px;
+    width: 100px;
+    display: block;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+/* blog end */
+
+
+/* upgrad start there */
+
+section#upgrade {
+    margin: 30px 0px;
+}
+
+.uptgrade-titile {
+    width: 100%;
+    text-align: center;
+}
+
+.uptgrade-titile h1 {
+    font-size: 36px;
+    color: #241d1d;
+    margin: 17px 0px;
+}
+
+.uptgrade-titile p {
+    width: 47%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 17px;
+}
+
+.newsletter {
+    background: #e7e5ac;
+    width: 661px;
+    display: block;
+    margin: 80px auto;
+    padding: 73px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input[type="text"] {
+    padding: 13px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    border-radius: 3px;
+    font-weight: 100;
+}
+
+button.subcribe-btn {
+    width: 237px;
+    background: crimson;
+    border: navajowhite;
+    border-radius: 2px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+/* upgrade end */
+
+
+/* 
+footer start  */
+
+footer#footer {
+    background: #040404;
+}
+
+.footer-content {
+    text-align: center;
+    color: wheat;
+    padding: 17px;
+}
+
+.footer-content h1 {
+    padding-top: 41px;
+    text-transform: capitalize;
+}
+
+.footer-content span {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* footer end */
